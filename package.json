@@ -1,0 +1,28 @@
+{
+  "name": "koa",
+  "version": "1.0.0",
+  "description": "this is koa and typescript study space",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc --build && node ./dist/app.js",
+    "watch": "nodemon --ext js,ts --exec yarn start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa-static": "^4.0.2",
+    "@types/koa2-cors": "^2.0.2",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "koa2-validation": "^1.1.0",
+    "log4js": "^6.3.0",
+    "nodemon": "^2.0.13",
+    "socket.io": "^4.2.0",
+    "socketio-jwt": "^4.6.2"
+  }
+}
